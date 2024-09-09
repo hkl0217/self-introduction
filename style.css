@@ -25,7 +25,6 @@ h2{
 .sections {
    display: flex;
    flex: 1;
-   justify-content: space-around;
    border: 1px solid #f5f0e8;
 }
 
