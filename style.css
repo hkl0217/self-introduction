@@ -1,12 +1,14 @@
 :root {
     --font-family: Fangsong;
-    --main-page-border: 2px solid #f5f0e8;
+    --main-page-border: 2px solid #52575d;
+    --second-page-body-color: #674f04;
 }
 body{
     font-family: var(--font-family);
+    background-color: #dfd8c8;
 }
 h1 {
-    color: #674f04;
+    color: #41444b;
     text-align: center;
     line-height: 30px;
     font-weight: 200px
@@ -45,6 +47,22 @@ h2{
     border: var(--main-page-border);
 }
 
+.cat {
+    font: var(--font-family);
+    color: var(--second-page-body-color);
+}
+
+.jewelry {
+    font: var(--font-family);
+    color: var(--second-page-body-color);
+    font-size: 17px;
+    line-height: 20px;
+}
+
+footer {
+    font: var(--font-family);
+    color: #d3bd9a;
+}
 a:hover {
     color: #674f04;
 }
