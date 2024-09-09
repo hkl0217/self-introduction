@@ -25,7 +25,6 @@ h2{
 
 .sections {
    display: flex;
-   justify-content: center;
    justify-content: space-between;
    padding: 20px;
 }
