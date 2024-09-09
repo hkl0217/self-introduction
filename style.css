@@ -1,5 +1,6 @@
 :root {
     --font-family: Fangsong;
+    --main-page-border: 1px solid #f5f0e8;
 }
 body{
     font-family: var(--font-family);
@@ -24,20 +25,21 @@ h2{
 
 .sections {
    display: flex;
-   flex: 1;
-   border: 1px solid #f5f0e8;
+   justify-content: space-around;
 }
 
 .introduction {
     font-size: 17px;
     line-height: 20px;
     font-weight: 100px;
+    border: var(--main-page-border)
 }
 
 .instagram {
     font-size: 17px;
     line-height: 20px;
     font-weight: 100px;
+    border: var(--main-page-border)
 }
 
 a:hover {
