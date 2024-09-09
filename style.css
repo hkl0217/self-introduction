@@ -34,7 +34,7 @@ h2{
     line-height: 20px;
     font-weight: 100px;
     padding: 10px
-    border: var(--main-page-border)
+    border: var(--main-page-border);
 }
 
 .instagram {
@@ -42,7 +42,7 @@ h2{
     line-height: 20px;
     font-weight: 100px;
     padding: 10px
-    border: var(--main-page-border)
+    border: var(--main-page-border);
 }
 
 a:hover {
