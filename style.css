@@ -41,10 +41,10 @@ h2{
     font-weight: 100px;
 }
 
-.a: hover {
+a:hover {
     color: #674f04;
 }
 
-.a: visited {
+a:visited {
     color: #41444b;
 }
