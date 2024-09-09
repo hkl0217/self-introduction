@@ -37,4 +37,5 @@ h2{
 .sections {
     border: 1px solid #41444b;
     padding: 20px;
+    flex: 1;
 }
