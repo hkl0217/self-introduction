@@ -25,7 +25,9 @@ h2{
 
 .sections {
    display: flex;
-   justify-content: space-around;
+   justify-content: center;
+   justify-content: space-between;
+   padding: 20px;
 }
 
 .introduction {
