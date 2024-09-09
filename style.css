@@ -1,6 +1,6 @@
 :root {
     --font-family: Fangsong;
-    --main-page-border: 1px solid #f5f0e8;
+    --main-page-border: 2px solid #f5f0e8;
 }
 body{
     font-family: var(--font-family);
