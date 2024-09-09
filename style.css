@@ -26,7 +26,7 @@ h2{
    display: flex;
    flex: 1;
    justify-content: space-around;
-   border: 1px solid #41444b;
+   border: 1px solid #f5f0e8;
 }
 
 .introduction {
@@ -39,4 +39,12 @@ h2{
     font-size: 17px;
     line-height: 20px;
     font-weight: 100px;
+}
+
+a: hover {
+    color: #674f04;
+}
+
+a: visited {
+    color: #41444b;
 }
