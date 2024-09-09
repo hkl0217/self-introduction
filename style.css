@@ -20,8 +20,11 @@ h2{
     justify-content: space-around;
 }
 
+
 .introduction {
     display: flex;
+    justify-content: space-around;
+    border: 1px solid #41444b;
     font-size: 17px;
     line-height: 20px;
     font-weight: 100px;
@@ -29,13 +32,8 @@ h2{
 
 .instagram {
     display: flex;
+    border: 1px solid #41444b;
     font-size: 17px;
     line-height: 20px;
     font-weight: 100px;
-}
-
-.sections {
-    border: 1px solid #41444b;
-    padding: 20px;
-    flex: 1;
 }
