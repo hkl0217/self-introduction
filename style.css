@@ -1,5 +1,9 @@
-
-
+:root {
+    --font-family: Fangsong;
+}
+body{
+    font-family: var(--font-family);
+}
 h1 {
     color: #674f04;
     text-align: center;
@@ -16,8 +20,6 @@ h2{
 
 .emoticons {
     text-align: center;
-    display: flex;
-    justify-content: space-around;
 }
 
 .sections {
