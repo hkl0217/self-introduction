@@ -20,19 +20,20 @@ h2{
     justify-content: space-around;
 }
 
+.sections {
+   display: flex;
+   flex: 1;
+   justify-content: space-around;
+   border: 1px solid #41444b;
+}
 
 .introduction {
-    display: flex;
-    justify-content: space-around;
-    border: 1px solid #41444b;
     font-size: 17px;
     line-height: 20px;
     font-weight: 100px;
 }
 
 .instagram {
-    display: flex;
-    border: 1px solid #41444b;
     font-size: 17px;
     line-height: 20px;
     font-weight: 100px;
