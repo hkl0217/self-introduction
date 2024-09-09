@@ -26,13 +26,14 @@ h2{
 .sections {
    display: flex;
    justify-content: space-between;
-   padding: 20px;
+   flex: 1;
 }
 
 .introduction {
     font-size: 17px;
     line-height: 20px;
     font-weight: 100px;
+    padding: 10px
     border: var(--main-page-border)
 }
 
@@ -40,6 +41,7 @@ h2{
     font-size: 17px;
     line-height: 20px;
     font-weight: 100px;
+    padding: 10px
     border: var(--main-page-border)
 }
 
