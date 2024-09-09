@@ -1,16 +1,28 @@
 
 
 h1 {
-color: #674f04;
-text-align: center;
+    color: #674f04;
+    text-align: center;
 }
 
 h2{
-color: #a28f70;
-text-align: center;
+    color: #a28f70;
+    text-align: center;
 }
 
-h3 {
+.emoji {
     text-align: center;
     justify-content: space-around;
+}
+
+.introduction {
+    text-align: center;
+    font-size: 17px;
+    line-height: 20px;
+}
+
+.instagram {
+    text-align: center;
+    font-size: 17px;
+    line-height: 20px;
 }
