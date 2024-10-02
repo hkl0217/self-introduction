@@ -2,87 +2,100 @@
     --font-family: Fangsong;
     --main-page-border: 2px solid #52575d;
     --second-page-body-color: #674f04;
-}
-body {
+    --second-page-border: 2px solid #cabfab;
+  }
+  body {
     font-family: var(--font-family);
     background-color: #dfd8c8;
-}
-h1 {
+  }
+  h1 {
     color: #41444b;
     text-align: center;
     line-height: 30px;
     font-weight: 200px
     margin-top: 20px;
-}
-
-h2{
+  }
+  
+  h2{
     color: #a28f70;
     text-align: center;
     line-height: 25px;
     font-weight: 100px;
-}
-
-h3 {
+  }
+  
+  h3 {
     text-align: center;
-}
-
-.emoticons {
+  }
+  
+  .emoticons {
     text-align: center;
-}
-
-.sections {
+  }
+  
+  .sections {
    display: flex;
    justify-content: space-evenly;
    flex: 1;
-}
-
-.introduction {
+  }
+  
+  .introduction {
     font-size: 17px;
     line-height: 20px;
     font-weight: 100px;
     padding: 5px 5px 5px 5px;
     border: var(--main-page-border);
-}
-
-.instagram {
+  }
+  
+  .instagram {
     font-size: 17px;
     line-height: 20px;
     font-weight: 100px;
     padding: 5px 5px 5px 5px;
     border: var(--main-page-border);
-}
-
-.cats {
-    font: var(--font-family);
-    color: var(--second-page-body-color);
-}
-
-.jewelry {
-    font: var(--font-family);
-    color: var(--second-page-body-color);
-    font-size: 17px;
-    line-height: 20px;
-}
-
-.parts {
+  }
+  
+  .sectional {
     display: flex;
-    justify-content: space-evenly;
-   flex: 1;
-}
-
-.job {
+  }
+  
+  .cats {
     font: var(--font-family);
     color: var(--second-page-body-color);
-}
-
-footer {
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    border: var(--second-page-border);
+    margin-bottom: 5px;
+  }
+  
+  .jewelry {
+    font: var(--font-family);
+    color: var(--second-page-body-color);
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    border: var(--second-page-border);
+  }
+  
+  .job {
+    font: var(--font-family);
+    color: var(--second-page-body-color);
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    border: var(--second-page-border);
+  }
+  
+  footer {
     font: var(--font-family);
     color: #41444b;
-}
-a:hover {
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+  }
+  a:hover {
     color: #674f04;
-}
-
-a:visited {
+  }
+  
+  a:visited {
     color: #41444b;
-}
+  }
