@@ -3,7 +3,7 @@
     --main-page-border: 2px solid #52575d;
     --second-page-body-color: #674f04;
 }
-body{
+body {
     font-family: var(--font-family);
     background-color: #dfd8c8;
 }
@@ -12,6 +12,7 @@ h1 {
     text-align: center;
     line-height: 30px;
     font-weight: 200px
+    margin-top: 20px;
 }
 
 h2{
@@ -19,6 +20,11 @@ h2{
     text-align: center;
     line-height: 25px;
     font-weight: 100px;
+}
+
+h3 {
+    text-align: center;
+
 }
 
 .emoticons {
