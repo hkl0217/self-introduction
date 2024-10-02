@@ -52,7 +52,7 @@ h3 {
     border: var(--main-page-border);
 }
 
-.cat {
+.cats {
     font: var(--font-family);
     color: var(--second-page-body-color);
 }
@@ -70,9 +70,14 @@ h3 {
    flex: 1;
 }
 
+.job {
+    font: var(--font-family);
+    color: var(--second-page-body-color);
+}
+
 footer {
     font: var(--font-family);
-    color: #d3bd9a;
+    color: #41444b;
 }
 a:hover {
     color: #674f04;
